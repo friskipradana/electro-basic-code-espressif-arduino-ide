@@ -51,7 +51,7 @@ void setup() {
   server.begin();
 }
 
-int i=0;
+int i = 0;
 void loop() {
   WebSerial.println(i++);
   delay(1000);
