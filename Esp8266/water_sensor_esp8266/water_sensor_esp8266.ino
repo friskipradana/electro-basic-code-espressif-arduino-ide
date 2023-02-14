@@ -22,7 +22,7 @@ float panjangSensor = 4.0 ; // 4.0 cm, bisa dirubah, menyesuikan dengan panjang 
 
 
 void setup() {
-  Serial.begin(9600); // mengatur boudrate komunikasi serial antara arduino dengan PC
+  Serial.begin(115200); // mengatur boudrate komunikasi serial antara arduino dengan PC
   Serial.println("Pembacaan Ketinggian Air");
   delay(500);
 }
